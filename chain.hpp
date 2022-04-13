@@ -23,17 +23,20 @@ public:
     double operator()(PPState const& p1, PPState const& p2) const;
 };
 
-/* class Chain {
+class Chain {
     Hooke m_inter;
     std::vector<PPState> m_ppses;
 
 public:
-    Chain(Hooke const& inter);
+    Chain(Hooke const& inter) : m_inter{inter}
+    {
+
+    };
+    
     void push_back(PPState const& pps);
     int size() const;
-    
     void evolve(double delta_t);
     std::vector<PPState> const& state() const;
-}; */
+};
 
 #endif 

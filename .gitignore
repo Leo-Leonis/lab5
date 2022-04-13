@@ -1,2 +1,8 @@
- ##ignora a.out
- a.out
+##ignora a.out
+a.out
+
+##ignora test
+test
+
+##ignora cartella tobeignored
+tobeignored/
