@@ -32,8 +32,9 @@ class Chain {
 
  public:
   // costruttore
-  Chain(Hooke const& inter): m_inter{inter}, m_N{0}
-        {
+  Chain(Hooke const& inter)
+      : m_inter{inter},
+        m_N{0} {
 
         };
   // funzioni membro

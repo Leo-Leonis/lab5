@@ -76,5 +76,4 @@ TEST_CASE("Testing Chain for 3 particles: std") {
   CHECK(state_f[1].v == 0.05);
   CHECK(state_f[2].x == 4.);
   CHECK(state_f[2].v == 0.);
-
 }

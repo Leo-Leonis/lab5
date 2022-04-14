@@ -1,6 +1,6 @@
+#include <fstream>
 #include <iomanip>
 #include <iostream>
-#include <fstream>
 
 #include "chain.hpp"
 
@@ -91,8 +91,8 @@ int main() {
               << std::setw(14) << (sum_mv / sum_m) << '\n';
 
     ofile << std::setprecision(4) << std::fixed << std::setw(8) << length
-              << "  | " << std::setw(14) << (sum_mx / sum_m) << "   | "
-              << std::setw(14) << (sum_mv / sum_m) << '\n';
+          << "  | " << std::setw(14) << (sum_mx / sum_m) << "   | "
+          << std::setw(14) << (sum_mv / sum_m) << '\n';
   };
 
   std::cout << "\nSummary:\n";
