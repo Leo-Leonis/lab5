@@ -28,10 +28,11 @@ class Hooke {
 class Chain {
   Hooke m_inter;
   std::vector<PPState> m_ppses;
+  unsigned int m_N;
 
  public:
   // costruttore
-  Chain(Hooke const& inter): m_inter{inter}
+  Chain(Hooke const& inter): m_inter{inter}, m_N{0}
         {
 
         };
